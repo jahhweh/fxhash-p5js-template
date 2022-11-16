@@ -1,5 +1,6 @@
 # fxhash_p5js_template
-A beginners template for creating generative art on fx(hash) using p5js
+A beginners template for creating generative art on fx(hash) using p5js. </br>
+
 
 <h2>Getting Started</h2>
 
@@ -19,7 +20,7 @@ A beginners template for creating generative art on fx(hash) using p5js
 2 - Select all of the files in the folder and compress them into a ZIP folder </br>
 3 - Go to fx(hash) sandbox and drop in the ZIP folder </br>
 
-<h3>Tips for moving ahead</h3>
+<h2>Tips for moving ahead</h2>
 1 - Check out the examples on the p5js website. You can copy/paste them into the sketch.js file to edit them. </br>
 2 - The style.css file is where the settings are that center the Canvas to the window. Edit these variables to change how the Canvas appears on screen and on fx(hash). </br>
 3 - The index.html file contains the code required by fx(hash). Do not edit it! </br>
