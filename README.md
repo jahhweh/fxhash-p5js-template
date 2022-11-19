@@ -12,9 +12,9 @@ A beginners template for creating generative art on fx(hash) using p5js. </br>
 
 <h2>Playing with P5.js</h2>
 
-1 - Open the sketch.js file 
-2 - Read the explanations for each line of code to understand how a project is built.
-3 - Experiemtn and have fun! </br>
+1 - Open the sketch.js file <br>
+2 - Read the explanations for each line of code to understand how a project is built. <br>
+3 - Experiment and have fun! </br>
 
 <h2>Uploading to fx(hash)</h2>
 1 - Open the project folder </br>
