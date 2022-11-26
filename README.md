@@ -1,5 +1,8 @@
-# fxhash_p5js_template
+# fx(hash) p5.js template
 A beginners template for creating generative art on fx(hash) using p5js. </br>
+No extra files: the simplest bare-bones setup </br>
+Random seed set to fx(hash): freely use the random() function
+Code explanation inside sketch.js: understand the basic framework and start creating in minutes!
 
 
 <h2>Getting Started</h2>
