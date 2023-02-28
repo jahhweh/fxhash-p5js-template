@@ -1,9 +1,23 @@
 //
 // Welcome to the sketch.js file! This is where we do our creative coding.
 //
+//
+// lets make a randomly sized and colored square
+// with a randomly colored circle inside! how exciting!
+//
+//
+
+// this will let our program know these variables exist
+// otherwise we would get an error saying "Squaresize not defined"
+let squareSize;
 
 // setup runs once when we first start the program or "Go Live"
 function setup() { 
+
+  // this line makes the background of our canvas to white
+  // the color is based on a range from 0 to 255
+  // 0 being black and 255 being white
+  background(255);
 
   // right click in the window and select "Inspect"
   // along the top menu, select "Console"
@@ -28,6 +42,25 @@ function setup() {
   // this creates our Canvas which is the area in which we create
   // this is the area that appears on fxhash
   createCanvas(400, 400);
+
+  // this will get us a random number between 100 and 200
+  // something very specific like 104.44361779373139
+  // and our upcoming function will be able to use it
+  squareSize = random(100,200)
+
+  // this runs the function that creates a randomly colored square
+  randomColoredSquare()
+
+  // this will tell fx(hash) that we have Features that we want to show
+  // Features only work if they are declared before or during setup!
+
+  window.$fxhashFeatures = {
+    "Size: ": squareSize,
+    "fx(hash)": fxhash
+  }
+
+  // this is what our feature value will show on fx(hash)
+  console.log('Size: ', squareSize)
 } 
 
 
@@ -36,18 +69,18 @@ function setup() {
 function draw() { 
 
 
-  // this line makes the background of our canvas to white
-  // the color is based on a range from 0 to 255
-  // 0 being black and 255 being white
-  background(255);
-
-
-  // this runs the function that creates a randomly colored square
-  randomColoredSquare()
-
-
-  // this runs the function creates a randomly colored circle
+  // this runs the function that creates a randomly colored circle
   randomColoredCircle()
+
+
+  // if we dont want to continue to draw on top of what we just did
+  // we can tell the draw function to stop looping by calling noLoop()
+  // if you want to enable noLoop() and remain on frame 1, remove the 
+  // two '//' before noLoop(). our program ignores everything inside here
+  // so we can leave notes for ourself or others exploring your code
+
+
+  // noLoop()
 
 }
 
@@ -82,7 +115,7 @@ function randomColoredSquare() {
   // until now, our canvas is completely blank
   // we tell p5js to make a rectangle, position it in the middle of our screen
   // and make the size 100 pixels wide by 100 pixels high
-  rect(width/2,height/2,100,100)
+  rect(width/2,height/2,squareSize)
 }
 
 
