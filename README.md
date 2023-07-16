@@ -1,11 +1,13 @@
 # fx(hash) p5.js template
+
+# *This template is no longer supported. Please use the official fx(hash) boilerplate! https://github.com/fxhash/fxhash-boilerplate* 
+</br>
+
 A beginners template for creating generative art on fx(hash) using p5js. </br>
 No extra files: the simplest bare-bones setup </br>
 Random seed set to fx(hash): freely use the random() function </br>
 Code explanation inside sketch.js: understand the basic framework and start creating in minutes! </br>
 Set Features for your work to display trait names and values</br>
-
-
 
 <h2>Getting Started</h2>
 
